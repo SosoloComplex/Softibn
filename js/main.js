@@ -68,6 +68,24 @@
             }
         }
     });
+
+    // Dark theme toggle
+    var themeToggle = $('.theme-toggle');
+    if (themeToggle.length) {
+        function updateThemeIcon() {
+            var dark = document.documentElement.classList.contains('dark');
+            themeToggle.find('i')
+                .toggleClass('bi-moon-stars', !dark)
+                .toggleClass('bi-sun', dark);
+        }
+        themeToggle.on('click', function () {
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('softibn-theme',
+                document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+            updateThemeIcon();
+        });
+        updateThemeIcon();
+    }
     
 })(jQuery);
 

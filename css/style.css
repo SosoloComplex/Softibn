@@ -289,3 +289,42 @@ h6,
     border-color: transparent #D34351 #D34351 transparent;
     z-index: -1;
 }
+
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-contact {
+    border-radius: 2px;
+}
+
+.nav-contact .theme-toggle {
+    width: 46px;
+    height: 46px;
+    margin: 0 8px 0 2px;
+    background: transparent;
+    border: 0;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.nav-contact .theme-toggle:hover {
+    background: rgba(255, 255, 255, .15);
+}
+
+.nav-contact-link {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 15px 0 0;
+    outline: none;
+    transition: .5s;
+}
+
+.nav-contact-link:hover {
+    color: #FFFFFF;
+}

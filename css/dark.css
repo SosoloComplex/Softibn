@@ -1,0 +1,96 @@
+html.dark body {
+    background-color: #100e1e;
+    color: #d6d3ea;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+html.dark {
+    color-scheme: dark;
+}
+
+html.dark .bg-white {
+    background-color: #17152b !important;
+}
+
+html.dark .bg-light {
+    background-color: #1f1c36 !important;
+}
+
+html.dark .text-body {
+    color: #d6d3ea !important;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+    color: #d6d3ea;
+}
+
+html.dark .text-primary {
+    color: #e0817e !important;
+}
+
+html.dark .navbar-light .navbar-nav .nav-link {
+    color: #d6d3ea;
+}
+
+html.dark .navbar-light .navbar-nav .nav-link:hover,
+html.dark .navbar-light .navbar-nav .nav-link.active {
+    color: var(--secondary);
+}
+
+html.dark .navbar-light .navbar-toggler {
+    color: #d6d3ea;
+    border-color: #6b668f;
+}
+
+html.dark .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28246, 243, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+html.dark .form-control {
+    color: #d6d3ea;
+    background-color: #221e3a;
+    border-color: #3a3563;
+}
+
+html.dark .form-control:focus {
+    color: #d6d3ea;
+    background-color: #221e3a;
+    border-color: var(--secondary);
+}
+
+html.dark .form-control::placeholder {
+    color: #a7a3c6;
+}
+
+html.dark .form-control.border-white {
+    border-color: #6b668f !important;
+}
+
+html.dark .service-item.bg-light {
+    background-color: #1f1c36 !important;
+}
+
+html.dark .service-item:hover * {
+    color: var(--light) !important;
+}
+
+html.dark .bg-offer {
+    background-color: #100e1e;
+}
+
+html.dark .back-to-top {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.theme-toggle i {
+    transition: transform .3s ease;
+}
+
+.theme-toggle:hover i {
+    transform: rotate(20deg) scale(1.1);
+}

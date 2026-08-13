@@ -29,6 +29,14 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Dark Theme -->
+    <link href="css/dark.css" rel="stylesheet">
+    <script>
+        if (localStorage.getItem('softibn-theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
 </head>
 
 <body>
@@ -57,7 +65,10 @@
                     </div>
                 </div> -->
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
-                <a href="#" class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5"><i class="bi bi-envelope-open me-2"></i>info@softibn.com</a>
+                <div class="nav-contact bg-secondary text-white ms-lg-5 d-flex align-items-center">
+                    <button class="theme-toggle btn d-flex align-items-center justify-content-center" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><i class="bi bi-moon-stars"></i></button>
+                    <a href="#" class="nav-contact-link d-flex align-items-center"><i class="bi bi-envelope-open me-2"></i>info@softibn.com</a>
+                </div>
             </div>
         </div>
     </nav>
