@@ -195,6 +195,31 @@ h6,
     background-size: cover;
 }
 
+.hero-dashcam {
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/hero-dashcam.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hero-network {
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/hero-network.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hero-hardware {
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/hero-hardware.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hero-maintenance {
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/hero-maintenance.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hero-fleet {
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/hero-fleet.jpg) center no-repeat;
+    background-size: cover;
+}
+
 .service-item div {
     z-index: 1;
 }
